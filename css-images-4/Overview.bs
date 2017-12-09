@@ -166,8 +166,8 @@ Resolution Negotiation: the ''image-set()'' notation {#image-set-notation}
 		(as printers can have <em>extremely</em> high resolution):
 
 		<pre>
-			background-image: image-set( "foo.png" 1x,
-			                             "foo-2x.png" 2x,
+			background-image: image-set( "foo.png" 1dppx,
+			                             "foo-2x.png" 2dppx,
 			                             "foo-print.png" 600dpi );
 		</pre>
 	</div>
